@@ -2,16 +2,12 @@ package com.bkravets.springbootexample;
 
 import com.bkravets.springbootexample.customer.Customer;
 import com.bkravets.springbootexample.customer.CustomerDao;
-import com.bkravets.springbootexample.customer.CustomerRepository;
 import com.github.javafaker.Faker;
-import com.github.javafaker.Name;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.util.List;
 
 @SpringBootApplication
 public class SpringBootExampleApplication {
